@@ -1,2 +1,15 @@
-# birthday-games
-This is a small script for a birthday party game, possibly to be extended in the future.
+# Birthday Games
+This is a small script for a birthday party game, possibly to be extended in the future. The intention is to get groups of friends to mix and talk with each other rather than staying among themselves.
+
+To run this get-to-know-each-other bingo, request three fun facts from all of your guests. You can suggest topics for that; note that your suggestions can steer the topics people will talk about during your party to some extent. Still, I advise to also leave room for people's own contributions as you can never hope to match the creativity of all of your guests :)
+What worked well for me were e.g.:
+
+ - I prefer to spend my spare time ...
+ - My favourite movie is ...
+ - If I had enough money to do whatever I wanted ...
+ - If I was an animal/plant ...
+ - The last thing that made me truly happy was ...
+
+Collect all fun facts in `fun_fact.csv`, formatted as `fact;name`. Look at the template and try creating a sample bingo to see if it looks good to you. Then, run `bingo.py` (you might have to create a `bingos` subdirectory first). Use your favourite LaTeX distribution to convert all `.tex` files to PDF and you can distribute them among your guests. Currently, the bingo is setup to include some whitespace in each field such that people can mark names of correctly identified fun facts on their printouts.
+
+Please note that some text is in German, e.g. the caption of the bingo template. 
