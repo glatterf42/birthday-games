@@ -1,0 +1,9 @@
+#From vscode
+.vscode/
+
+#From python
+__pycache__/
+
+#From personal data
+bingos/
+fun_facts.csv
